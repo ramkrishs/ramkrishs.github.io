@@ -1,5 +1,6 @@
 html{
 	color: #4f4f4f;
+	border-top: 3px solid #000000;
 }
 body{
 	/*border-top: 3px solid #2ecc71;*/
@@ -57,17 +58,25 @@ a img{
 	font-weight: bold;
 
 }
-
+.caption{
+    text-align: center;
+    margin-top: 10px;
+    font-style:italic;
+    word-spacing: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
 .container{
 width: 80%;
 margin: 0 auto;
-min-height: 400px;
+
 font-family: 'Archivo Narrow', sans-serif;
 }	
 
 .clear{clear: both;}
 
 footer{
+	margin-top: 400px;
 	min-height: 200px;
 }
 
