@@ -1,49 +1,76 @@
+html{
+	color: #4f4f4f;
+}
 body{
 	/*border-top: 3px solid #2ecc71;*/
 	margin: 0 auto;
 	padding: 0px;
 	background: #ffffff;
 	font-size: 18px;
-	background-color:#ecf0f1;
-	width: 960px;
+	/*background-color:#ecf0f1;*/
+	width: 980px;
+}
+
+/*font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
+
+header{
+	margin-top: 40px;
+
+}
+nav{
+	font-family: 'Archivo Narrow', sans-serif;
+	float: right;
+	margin-right: 100px;
+}
+nav a{
+	color: #4f4f4f;
+	text-decoration: none;
+	list-style: none;
+}
+nav a:active{
+	color: #4f4f4f;
+
+}
+nav a:hover{
+	color: #2C2C2C;
+	text-decoration: underline;
+}
+.header-img{
+margin: 0 auto;
+width: 700px;
+margin-top: 30px;
+}
+a img{
+	border: none;
+}
+img{
+	width: 
+}
+.header-text{
+	font: sans-serif;
+	font-size: 15px;
+	color: #4f4f4f;
+	letter-spacing:30px;
+	margin-left: 50px;
+	margin-right:50px;
+	text-align: center;
+
 }
 
 .container{
 width: 80%;
 margin: 0 auto;
 min-height: 400px;
+font-family: 'Archivo Narrow', sans-serif;
 }	
 
 .clear{clear: both;}
 
-header{
-	width: 40%;
-	margin: 0 auto;
-	margin-top: 60px;
-	min-height: 200px;
-}
+
 footer{
 	min-height: 200px;
-}
-nav a{
-	padding: 5px;
-}
-nav{
-	margin-top: 30px;
-}
-nav ul{
-	list-style: none;
-	list-style-type: none;
-	list-style-image: none;
-	margin: 0px;
-	padding: 0px;
-	width: 135px;
-	text-align: right;
-}
-nav ul li{
-	list-style: none;
-	list-style-type: none;
-	list-style-image: none;
 }
 
 hr{width: 70%}
@@ -51,5 +78,10 @@ hr{width: 70%}
 		text-align: center;
 		margin-top: 10px;
 }
+
+
+
+
+
 
 
