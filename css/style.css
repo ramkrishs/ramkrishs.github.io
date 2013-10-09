@@ -21,7 +21,7 @@ header{
 
 }
 .main_text p{
-	text-align: right;
+	text-align: center;
 	font-size: 22px;
 	word-spacing: 5px;
 	margin-top: 100px;
@@ -78,13 +78,14 @@ width: 80%;
 margin: 0 auto;
 
 font-family: 'Archivo Narrow', sans-serif;
+min-height: 300px;
 }	
 
 .clear{clear: both;}
 
 footer{
-	margin-top: 100px;
-	min-height: 200px;
+	/*margin-top: 100px;
+	min-height: 200px;*/
 }
 
 hr{width: 70%}
@@ -97,6 +98,9 @@ hr{width: 70%}
 }
 #world{
 	display: none;
+}
+#home p{
+		text-align: right;
 }
 #contact{
 	display: none;
