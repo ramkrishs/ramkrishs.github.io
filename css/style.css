@@ -25,7 +25,7 @@ header{
 	font-size: 22px;
 	word-spacing: 5px;
 	margin-top: 100px;
-	text-shadow: 0px 2px 1px #C5C5C5;
+	/*text-shadow: 0px 2px 1px #C5C5C5;*/
 }
 nav{
 	font-family: 'Archivo Narrow', sans-serif;
@@ -49,6 +49,8 @@ nav a:hover{
 margin: 0 auto;
 width: 700px;
 margin-top: 30px;
+
+}
 }
 a img{
 	border: none;
@@ -64,6 +66,7 @@ a img{
 	text-align: center;
 	font-weight: bold;
 
+
 }
 .caption{
     text-align: center;
@@ -78,7 +81,7 @@ width: 80%;
 margin: 0 auto;
 
 font-family: 'Archivo Narrow', sans-serif;
-min-height: 300px;
+min-height: 150px;
 }	
 
 .clear{clear: both;}
@@ -99,9 +102,16 @@ hr{width: 70%}
 #world{
 	display: none;
 }
+#home{
+	-webkit-animation-delay:1s;
+}
 #home p{
 		text-align: right;
+
 }
 #contact{
 	display: none;
+}
+#push{
+	-webkit-animation-delay:3s;
 }
