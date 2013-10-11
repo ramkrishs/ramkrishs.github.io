@@ -39,11 +39,14 @@ nav a{
 }
 nav a:active{
 	color: #4f4f4f;
+	font-weight: bold;
+
 
 }
 nav a:hover{
 	color: #2C2C2C;
 	text-decoration: underline;
+
 }
 .header-img{
 margin: 0 auto;
@@ -104,10 +107,6 @@ hr{width: 70%}
 }
 #home{
 	-webkit-animation-delay:1s;
-}
-#home p{
-		text-align: right;
-
 }
 #contact{
 	display: none;
