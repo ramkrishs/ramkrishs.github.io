@@ -1,6 +1,7 @@
 html{
 	color: #4f4f4f;
 	border-top: 4px solid #000000;
+	width: 100%;
 }
 body{
 	/*border-top: 3px solid #2ecc71;*/
@@ -86,6 +87,7 @@ margin: 0 auto;
 
 font-family: 'Archivo Narrow', sans-serif;
 min-height: 150px;
+margin-bottom: 130px;
 }	
 
 .clear{clear: both;}
