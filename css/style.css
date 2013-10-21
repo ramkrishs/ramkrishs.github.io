@@ -92,7 +92,7 @@ min-height: 150px;
 
 .footer{
 	
-	min-height: 50px;
+	min-height: 40px;
 	background-color: #313030;
 	color: white;
 	position: fixed;
@@ -115,14 +115,13 @@ min-height: 150px;
 	   -moz-animation-delay: 1s;
 	     -o-animation-delay: 1s;
 	        animation-delay: 1s;
-	visibility: hidden;
+			visibility: hidden;
 }
-<<<<<<< HEAD
-=======
+
 #home p{
-		text-align: right;
+		text-align: center;
 }
->>>>>>> commit with new footer
+
 #contact{
 	display: none;
 }
