@@ -4,12 +4,13 @@ html{
 }
 body{
 	/*border-top: 3px solid #2ecc71;*/
-	margin: 0 auto;
-	padding: 0px;
+	
 	/*background: #ffffff;*/
 	font-size: 18px;
 	/*background-color:#ecf0f1;*/
-	width: 980px;
+	/*width: 980px;*/
+	margin: 0;
+	padding: 0;
 }
 
 /*font-family: 'Archivo Narrow', sans-serif;
@@ -80,7 +81,7 @@ a img{
     font-weight: bold;
 }
 .container{
-width: 80%;
+width: 980px;
 margin: 0 auto;
 
 font-family: 'Archivo Narrow', sans-serif;
@@ -89,16 +90,20 @@ min-height: 150px;
 
 .clear{clear: both;}
 
-footer{
-	/*margin-top: 100px;
-	min-height: 200px;*/
+.footer{
+	
+	min-height: 50px;
+	background-color: #313030;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-size: 0.9em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-hr{width: 70%}
-.social{
-		text-align: center;
-		margin-top: 10px;
-}
 #about{
 	display: none;
 }
@@ -107,10 +112,23 @@ hr{width: 70%}
 }
 #home{
 	-webkit-animation-delay:1s;
+	   -moz-animation-delay: 1s;
+	     -o-animation-delay: 1s;
+	        animation-delay: 1s;
+	visibility: hidden;
 }
+<<<<<<< HEAD
+=======
+#home p{
+		text-align: right;
+}
+>>>>>>> commit with new footer
 #contact{
 	display: none;
 }
 #push{
 	-webkit-animation-delay:3s;
+       -moz-animation-delay:3s;
+	     -o-animation-delay:3s;
+	        animation-delay:3s;
 }
