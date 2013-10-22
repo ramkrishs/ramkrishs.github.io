@@ -108,16 +108,18 @@ margin-bottom: 130px;
 
 #about{
 	display: none;
+	visibility:none;
 }
 #world{
 	display: none;
+	visibility:none;
 }
 #home{
 	-webkit-animation-delay:1s;
 	   -moz-animation-delay: 1s;
 	     -o-animation-delay: 1s;
 	        animation-delay: 1s;
-			visibility: hidden;
+		visibility: hidden;
 }
 
 #home p{
@@ -126,6 +128,7 @@ margin-bottom: 130px;
 
 #contact{
 	display: none;
+	visibility:none;
 }
 #push{
 	-webkit-animation-delay:3s;
