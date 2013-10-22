@@ -6,4 +6,5 @@ $('a.menu').click(function () {
 $('#home').css("visibility", "visible").addClass('animated bounceInDown');
 $('#about').css("visibility", "visible").addClass('animated bounceInDown');
 $('#world').css("visibility", "visible").addClass('animated bounceInDown');
-$('#contact').css("visibility", "visible").addClass('animated bounceInDown');
+$('#contact .email').css("visibility", "visible").addClass('animated bounceIn');
+$('#contact .phone').css("visibility", "visible").addClass('animated bounceIn');
