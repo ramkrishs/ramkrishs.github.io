@@ -4,3 +4,6 @@ $('a.menu').click(function () {
 	$('#'+$(this).attr('menu-id')).show();
 })
 $('#home').css("visibility", "visible").addClass('animated bounceInDown');
+$('#about').css("visibility", "visible").addClass('animated bounceInDown');
+$('#world').css("visibility", "visible").addClass('animated bounceInDown');
+$('#contact').css("visibility", "visible").addClass('animated bounceInDown');
