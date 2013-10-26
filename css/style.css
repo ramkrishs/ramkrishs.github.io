@@ -113,6 +113,8 @@ margin-bottom: 130px;
 	   -moz-animation-delay: 1s;
 	     -o-animation-delay: 1s;
 	        animation-delay: 1s;
+	        
+
 		visibility: hidden;
 }
 
