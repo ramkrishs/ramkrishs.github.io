@@ -9,4 +9,3 @@ $('#world .info').removeClass('animated').css("visibility", "visible").addClass(
 $('#contact .email').removeClass('animated').css("visibility", "visible").addClass('animated bounceIn');
 $('#contact .phone').removeClass('animated').css("visibility", "visible").addClass('animated bounceIn');
 
-
