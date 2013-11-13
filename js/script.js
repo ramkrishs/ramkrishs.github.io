@@ -11,7 +11,7 @@ function contentAnimate () {
 		{
 		$('#home').removeClass('animated').css("visibility", "visible").addClass('animated bounceIn');
 		$('#about .info').removeClass('animated').css("visibility", "visible").addClass('animated bounceInDown');
-		$('#world .info').removeClass('animated').css("visibility", "visible").addClass('animated bounceInRight');
+		//$('#world .info').removeClass('animated').css("visibility", "visible").addClass('animated bounceInRight');
 		$('#contact .email').removeClass('animated').css("visibility", "visible").addClass('animated bounceIn');
 		$('#contact .phone').removeClass('animated').css("visibility", "visible").addClass('animated bounceIn');
 		}
