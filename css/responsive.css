@@ -32,6 +32,7 @@
 
   .sidebar {
     padding-left: 4em;
+
   }
 
   .content {
@@ -59,7 +60,7 @@
     transition: 1s;
     margin-left: -100%;
     z-index: 3;
-    width: 35%;
+
     padding-left: 1.75em;
   }
 
@@ -68,8 +69,8 @@
     padding-right: 2em;
   }
 
-  #sidebar-button {
-    display: block;
+  #sidebar-button  {
+    display: block !important;
     z-index: 2;
   }
 }
