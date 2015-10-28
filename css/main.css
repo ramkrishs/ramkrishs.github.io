@@ -52,19 +52,19 @@ a:hover {
   max-width: 128px;
 }
 
-.posts a {
+.navbar a {
   color: #444;
 }
 
-.posts a:hover {
+.navbar a:hover {
   color: #777;
 }
 
-.posts-list {
+.nav-list {
   list-style-type: none;
 }
 
-.posts-list li {
+.nav-list li {
   text-align: center;
   line-height: 1.75em;
 }
@@ -96,7 +96,7 @@ a:hover {
   display: block;
 }
 
-.posts {
+.navbar {
   border-top: 1px solid #e7e7e7;
   margin-top: 1em;
   padding-top: 1.5em;
@@ -218,11 +218,11 @@ a:hover {
   font-size: 1.1em;
 }
 
-.post-link {
+.nav-link {
   margin-bottom: 0.75em;
 }
 
-.post-title {
+.nav-title {
   font-weight: 600;
   font-size: 1.25em;
 
