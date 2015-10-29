@@ -50,14 +50,17 @@ a:hover {
 /*****************************************************************************/
 #logo {
   max-width: 128px;
+  border-radius: 50%;
 }
 
 .navbar a {
   color: #444;
+  -webkit-transition: color 1s;
+  transition: color 1s;
 }
 
 .navbar a:hover {
-  color: #777;
+  color: #2196F3;
 }
 
 .nav-list {
@@ -94,6 +97,12 @@ a:hover {
   text-align: center;
   margin-top: 0.5em;
   display: block;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+.tagline:hover{
+  color: #3498db;
+
 }
 
 .navbar {
@@ -134,7 +143,7 @@ a:hover {
   font-size: 3em;
   line-height: 40px;
   letter-spacing:.1em;
-  font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -168,7 +177,6 @@ article pre {
 }
 
 article p {
-  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   margin-bottom: 1.45em;
   text-align: justify;
@@ -178,8 +186,6 @@ article ul, article ol {
   margin-left: 2.35em;
   margin-bottom: 1.25em;
 }
-
-
 
 /*****************************************************************************/
 /*
@@ -199,7 +205,7 @@ article ul, article ol {
 
 .sidebar {
   float: left;
-
+  background: #fff;
   padding-left:4em;
   padding-right: 2.125em;
   border-right: 1px solid #e7e7e7;
@@ -252,6 +258,7 @@ main footer {
   border-top: 1px dotted #e7e7e7;
   position: absolute;
   bottom: 0;
+  text-align: center !important;
 }
 
 main footer p {
