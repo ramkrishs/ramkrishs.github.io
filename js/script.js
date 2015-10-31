@@ -22,4 +22,6 @@ $(document).ready(function(){
       $(this).css("color",colorArray[randomNumber]);
     }
   );
+
+
 });

@@ -13,6 +13,8 @@ html, body {
   height: 100%;
   width: 100%;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
 }
 
 body {
@@ -88,7 +90,7 @@ a:hover {
   display: inline-block;
   text-align: center;
   line-height: 25px;
-}
+  }
 
 .tagline {
   width: 100%;
@@ -137,14 +139,13 @@ a:hover {
 }
 
 #title {
-  color: #4a4a4a;
+  color: #fafbfc;
   margin-top: 1.5em;
   margin-bottom: 0.35em;
   font-size: 3em;
   line-height: 40px;
   letter-spacing:.1em;
-
-
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.16), -1px -1px 0 rgba(0, 0, 0, 0.12), 1px -1px 0 rgba(0, 0, 0, 0.16), -1px 1px 0 rgba(0, 0, 0, 0.12), 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 article{
@@ -204,18 +205,28 @@ article ul, article ol {
 }
 
 .sidebar {
-  float: left;
+  float: right;
   background: #fff;
   padding-left:4em;
   padding-right: 2.125em;
   border-right: 1px solid #e7e7e7;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+}
+
+#info-container{
+
 }
 
 .content {
   padding-left: 2.125em;
+  background: url('../images/bg.jpg');
+  background-size: cover;
+  color: #fff;
 }
+.bg_img{
 
+}
 .header {
   text-align: center;
   padding-top: 2.5em;
@@ -246,23 +257,69 @@ article ul, article ol {
   opacity: 0.7;
 }
 
-/*****************************************************************************/
-/*
-/* Colophon
-/*
-/*****************************************************************************/
-
 main footer {
   margin-top: 1.5em;
   margin-bottom: 1.45em;
-  border-top: 1px dotted #e7e7e7;
+
   position: absolute;
   bottom: 0;
-  text-align: center !important;
+
 }
 
 main footer p {
   margin-top: 1.25em;
   font-size: 0.95em;
-  color: #777;
+
+}
+
+
+
+/*****************************************************************************/
+/*
+/* animations and transitions effects
+/*
+/*****************************************************************************/
+@-webkit-keyframes slideIn {
+    from {margin-right: -250px;}
+    to {margin-right: 0px;}
+}
+
+/* Standard syntax */
+@keyframes slideIn {
+  from {margin-right: -250px;
+
+  }
+  to {margin-right: 0px;}
+}
+
+@-webkit-keyframes load {
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes load {
+  100%{
+    opacity: 1;
+  }
+}
+
+.sidebar {
+  -webkit-animation-name: slideIn; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+  animation-name: slideIn;
+  animation-duration: .5s;
+}
+.content{
+  opacity:0;  /* make things invisible upon start */
+	-webkit-animation:load ease-in 1;
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:0.3s;
+	-moz-animation-duration:0.3s;
+	animation-duration:0.3s;
+  -webkit-animation-delay: 0.6s;
+-moz-animation-delay: 0.6s;
+animation-delay: 0.6s;
 }

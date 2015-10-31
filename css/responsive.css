@@ -58,15 +58,15 @@
 
   .sidebar {
     transition: 1s;
-    margin-left: -100%;
+    margin-right: -100%;
     z-index: 3;
 
-    padding-left: 1.75em;
+    padding-right: 1.75em;
   }
 
   .content {
     z-index: 1;
-    padding-right: 2em;
+    padding-left: 2em;
   }
 
   #sidebar-button  {
@@ -82,5 +82,5 @@
 /*****************************************************************************/
 
 .slideIn {
-  margin-left: 0%;
+  margin-right: 0%;
 }
