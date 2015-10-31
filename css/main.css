@@ -142,7 +142,7 @@ a:hover {
   color: #fafbfc;
   margin-top: 1.5em;
   margin-bottom: 0.35em;
-  font-size: 3em;
+  font-size: 2.9em;
   line-height: 40px;
   letter-spacing:.1em;
   text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.16), -1px -1px 0 rgba(0, 0, 0, 0.12), 1px -1px 0 rgba(0, 0, 0, 0.16), -1px 1px 0 rgba(0, 0, 0, 0.12), 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -221,7 +221,7 @@ article ul, article ol {
 .content {
   padding-left: 2.125em;
   background: url('../images/bg.jpg');
-  background-size: cover;
+  background-size:cover;
   color: #fff;
 }
 .bg_img{
@@ -312,6 +312,7 @@ main footer p {
 .content{
   opacity:0;  /* make things invisible upon start */
 	-webkit-animation:load ease-in 1;
+  animation:load ease-in 1;
   -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
 	-moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
