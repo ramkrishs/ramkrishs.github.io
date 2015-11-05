@@ -55,15 +55,7 @@ a:hover {
   border-radius: 50%;
 }
 
-.navbar a {
-  color: #444;
-  -webkit-transition: color 1s;
-  transition: color 1s;
-}
 
-.navbar a:hover {
-  color: #2196F3;
-}
 
 .nav-list {
   list-style-type: none;
@@ -152,6 +144,15 @@ a:hover {
 }
 #title a:hover,a:active,a:link {
   color:#fafbfc;
+}
+.navbar a {
+  color: #444;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+.navbar a:hover {
+  color: #2196F3;
 }
 .hide{
   display: none;
