@@ -147,7 +147,15 @@ a:hover {
   letter-spacing:.1em;
   text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.16), -1px -1px 0 rgba(0, 0, 0, 0.12), 1px -1px 0 rgba(0, 0, 0, 0.16), -1px 1px 0 rgba(0, 0, 0, 0.12), 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
-
+#title a {
+  color:#fafbfc;
+}
+#title a:hover,a:active,a:link {
+  color:#fafbfc;
+}
+.hide{
+  display: none;
+}
 article{
   line-height: 24px;
   max-width: 725px;
