@@ -142,7 +142,7 @@ a:hover {
 #title a {
   color:#fafbfc;
 }
-#title a:hover,a:active,a:link {
+#title a:hover,a:active{
   color:#fafbfc;
 }
 .navbar a {
