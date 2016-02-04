@@ -17,11 +17,25 @@ $(document).ready(function(){
   $(".nav-title").hover(function () {
 
       var colorArray = new Array("#2980b9","#e67e22","#8e44ad","#16a085","#2ecc71","#c0392b");
-      var randomNumber = Math.floor((Math.random() * 6) + 0);
-      console.log(colorArray[2]);
+      var randomNumber = Math.floor((Math.random() * colorArray.length) + 0);
+      // console.log(colorArray[2]);
       $(this).css("color",colorArray[randomNumber]);
     }
   );
 
 
+});
+
+
+// $('#nav-about').click(function () {
+//   $('#about').css("display","block");
+// });
+
+$('a.nav-title').click(function () {
+  // body...
+  var colorArray = new Array("#3F51B5","#272727","#1752A9","#222D14");
+  var randomNumber = Math.floor((Math.random() * colorArray.length) + 0);
+  $(".content").css("background",colorArray[randomNumber]);
+  $('.section').hide();
+  $('#'+$(this).attr('menu-id')).show();
 });
