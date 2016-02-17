@@ -33,9 +33,13 @@ $(document).ready(function(){
 
 $('a.nav-title').click(function () {
   // body...
+  var value = $(this).attr('menu-id');
+  console.log(value);
   var colorArray = new Array("#3F51B5","#272727","#1752A9","#222D14");
   var randomNumber = Math.floor((Math.random() * colorArray.length) + 0);
-  $(".content").css("background",colorArray[randomNumber]);
+  $('.visible').css("visibility","visible");
+  $(".content").css("background","#FAFBFC");
   $('.section').hide();
+  $('.main-title h1').text(value);
   $('#'+$(this).attr('menu-id')).fadeIn();
 });
