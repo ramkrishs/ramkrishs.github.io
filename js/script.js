@@ -38,7 +38,7 @@ $('a.nav-title').click(function () {
   var colorArray = new Array("#3F51B5","#272727","#1752A9","#222D14");
   var randomNumber = Math.floor((Math.random() * colorArray.length) + 0);
   $('.visible').css("visibility","visible");
-  $(".content").css("background","#FAFBFC");
+  $(".content").css("background","none");
   $('.section').hide();
   $('.main-title h1').text(value);
   $('#'+$(this).attr('menu-id')).fadeIn();
