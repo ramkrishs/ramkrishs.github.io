@@ -37,5 +37,5 @@ $('a.nav-title').click(function () {
   var randomNumber = Math.floor((Math.random() * colorArray.length) + 0);
   $(".content").css("background",colorArray[randomNumber]);
   $('.section').hide();
-  $('#'+$(this).attr('menu-id')).show();
+  $('#'+$(this).attr('menu-id')).fadeIn();
 });

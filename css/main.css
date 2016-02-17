@@ -289,7 +289,32 @@ main footer p {
 #about{
   display: none;
 }
-
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #BDBDBD;
+  border-radius: 50px;
+  margin-left: 20px;
+    margin-bottom: 10px;
+}
+.circle i{
+      position: relative;
+      color: #fff;
+text-decoration: none;
+    left: 35px;
+    top: 36px;
+    font-size: 30px;
+}
+.icon-group{
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.icons{
+  float: left;
+}
+.icon-group a{
+  text-decoration: none;
+}
 /*****************************************************************************/
 /*
 /* animations and transitions effects
