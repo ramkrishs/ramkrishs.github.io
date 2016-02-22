@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 $('a.nav-title').click(function () {
   // body...
-  var value = $(this).attr('menu-id');
+  var value = $(this).attr('data-id');
   console.log(value);
   var colorArray = new Array("#3F51B5","#272727","#1752A9","#222D14");
   var randomNumber = Math.floor((Math.random() * colorArray.length) + 0);
@@ -41,5 +41,22 @@ $('a.nav-title').click(function () {
   $(".content").css("background","none");
   $('.section').hide();
   $('.main-title h1').text(value);
-  $('#'+$(this).attr('menu-id')).fadeIn();
+  $('#'+$(this).attr('data-id')).fadeIn();
+});
+
+$('.circle').hover(function() {
+  /* Stuff to do when the mouse enters the element */
+  $('.circle').css("opacity","0.6");
+  $(this).css({
+    opacity: '1',
+    background: '#607D8B',
+    transition:' opacity .5s'
+  });
+}, function() {
+  /* Stuff to do when the mouse leaves the element */
+  $('.circle').css({
+    opacity: '1',
+    background: '#BDBDBD',
+    transition:' opacity .5s'
+  });
 });
